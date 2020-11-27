@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylelogin.css">
+    <title>Document</title>
+    <!-- <script>
+        var v = document.getElementsByTagName("video")[0]; v.play();
+    </script> -->
+</head>
+<body>
+    
+    <div class="header" >
+       
+        <div class="title">
+            <video class="video_login" autoplay="true" muted loop >
+                <source src="videos/login_video.mp4" type="video/mp4">
+            </video>
+                <div class="centralizacao">
+                   
+                        <form id="form_login" method="post" onsubmit="return entrar()">
+                            Usuário: <input id="input1" type="text" name="login">
+                            <br>
+                            <br>
+                            Senha: <input id="input2" type="password" name="senha">
+                            <br>
+                            <br>
+                            <button onclick="entrar()" id="btn_entrar">Entrar</button> <br><br>
+                            <div onclick="cadastrar()" ><b src="" >cadastro</b> </div>
+                        </form>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+<script src="login.js"></script>

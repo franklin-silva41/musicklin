@@ -1,0 +1,466 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8cb561a1;
+}
+
+/* .title{
+    height: 25%;
+    padding-bottom: 2%;
+} */
+h1 {
+    margin: 0%;
+    color: #8CB561;
+}
+#div_mens{
+    float: right;
+}
+#div_mens{
+   font-size: 20px;
+   overflow: auto;
+   width: 500px;
+   height: 300px;
+   background-color: transparent;
+}
+
+.menu li a {
+    color: #8cb561;;
+}
+#titulo {
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    float: right;
+    color:  #8cb561a1;
+    position: absolute;
+    padding-top: 2.5%;
+}
+.inicio {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
+}
+.inicio a{
+    color: white;
+    text-decoration: none;
+}
+.login {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+.cadastro{
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
+}
+.cadastro a {
+    color: white;
+    text-decoration: none;
+}
+.img_musica img {
+    text-align: center;
+    width: 85px;
+    /* margin: 40px 55px; */
+    padding: 40px 55px;
+}
+
+#img_music{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    padding-top: 6%;
+}
+
+.img_musica{
+    display: flex;
+
+}
+.img_rock:hover {
+    width: 95px;
+    padding-bottom: 0%;
+    margin-bottom: 25px;
+    
+}
+#div_rock{
+    width: 15%;
+}
+
+.img_acustico:hover{
+    width: 95px;
+    padding-bottom: 0%;
+    margin-bottom: 25px;
+
+}
+#div_acustico{
+    width: 15%;
+    
+}
+
+.img_modao:hover{
+    width: 95px;
+    padding-bottom: 0%;
+
+}
+#div_modao{
+    width:15%
+}
+#eletronica_disp{
+    display: none;
+    background-image: url(../img/eletronicagif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.img_eletronica:hover {
+    width: 95px;
+    padding-bottom: 0%;
+} 
+#div_eletronica{
+    width: 15%;
+}
+.img_samba:hover{
+    width: 95px;
+    padding-bottom: 0%;
+    margin-bottom: 26px;
+}
+#div_samba{
+    width: 15%;
+}
+#samba{
+    display: none;
+    background-image: url(../img/joãonogueira.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+/* #disp_diogo{
+    display: none;
+    background-image: url(../img/diogo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+} */
+.alter{
+    width: 95%;
+    height: 65%;
+    background: black;  
+    float: right; 
+    border-radius: 15px;
+}
+
+.apresent{
+    text-align: center;
+    flex-direction: row;
+}
+
+.PAIalter{
+    width: 670px;
+    height: 660px;
+    float: left;
+}
+
+.PAIalter2{
+    float: right;
+    width: 700px;
+    height: 450px;
+
+}
+
+.alter2{
+    border-radius: 15px;
+    width: 95%;
+    height:95%;
+    background: black;  
+    float: left; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.alter b {
+    cursor: pointer;
+    color:  #8CB561;
+    padding-left: 10px;
+}
+
+.alter h2 {
+    padding-left: 10px;
+    color: #8CB561;
+   
+}
+.rock_div{
+    height: 500px;
+    width: 500px;
+}
+#rock{
+    display:none;
+    background-image: url(../img/freddy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    
+}
+#bohemian_disp{
+    display: none;
+    
+
+}
+#bohemian{
+    display: none;
+   
+}
+
+#acustico{
+    display: none;
+}
+/* #acustico h1{
+    display: none;
+} */
+#acustico_disp{
+    display: none;
+}
+.acustico_div{
+    background-image: url(../img/chorao.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+#anunciacao{
+    display:none;
+}
+
+#onde_anda{
+    display: none;
+    color: white;
+}
+#hurt_display{
+    display: none;
+}
+#hurt{
+    display: none;
+}
+
+#me_encontra{
+    display: none;
+}
+#made_in {
+    display: none;
+}
+#modao_disp{
+    display: none;
+    background-image: url(../img/leonardo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+#euvoufica{
+    display: none;
+}
+#indiferenca{
+    display: none;
+}
+#indi{
+    display: none;
+}
+#horas{
+    display: none;
+}
+#por_um_minutos{
+    display:none;
+}
+#swedish_house_mafia{
+    display: none;
+}
+#swedish_house{
+    display: none;
+}
+#the_nights{
+    display: none;
+}
+#disp_the_nights{
+    display: none;
+}
+#naquela_mesa{
+    display: none;
+}
+#naquelam{
+    display: none;
+}
+#hearmenow{
+    display: none;
+}
+#hear_me_now{
+    display:none;
+}
+#piace_of_your_heart{
+    display: none;
+}
+#piaceofyour{
+    display: none;
+}
+#espelho{
+    display:none;
+}
+#disp_espelho{
+    display: none;
+}
+#alem_do_espelho{
+    display:none
+}
+#disp_alem{
+display: none;
+}
+#easter{
+    display: none;
+    background-color:transparent;
+    border: none;
+    margin-top: 4%;
+} 
+#diogo_nogueira{
+    display:none;
+}
+
+/* cadastro css */
+.conteiner{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 95%;
+    height: 837px;
+    position: absolute;
+}
+.tela_cadas{
+    border-radius: 5%;
+    float: left;
+    width: 65%;
+    height: 97%;
+    background-color: #8cb561;
+    margin: 0%;
+}
+#cadastro_music{
+    margin-left: 1%;
+    font-size: 45px;
+    padding-top:21%;
+    color: black;
+    text-align: center;
+   
+}
+#logo-cad{
+    position: absolute;
+    padding-left: 16.1%;
+    margin-top: 5%;
+    margin-right: 0%;
+}
+.cadastro_inputs{
+    margin-right: 4.5%;
+    border-radius: 5%;
+    margin-top:15% ;
+    float: right;
+    background-color: #8cb561;
+    width: 29%;
+    height: 55%  
+}
+.input{
+
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    width:70%;
+    margin-top:8%;
+    background-color: transparent;
+    border-bottom: 1.5px solid #2e2e2d;
+
+}
+#btn_entrar{
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: black;
+}
+.inputs{
+    padding-top: 26%;
+    padding-left: 5%;
+}
+/* musica aleatoria*/
+#div_mens{
+    position: relative;
+    cursor: pointer;
+    width: 50%;
+    height: 10%;
+}
+#mens{
+
+    cursor: pointer;
+    float: right;
+    width: 50%;
+    font-size: 17px;
+    color: #161615;
+}
+/* background de cada estilo*/
+#opacidade{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+#opacidade1{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+#opacidade2{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    
+}
+#disp_diogo{
+    display: none;
+    background-image: url(../img/diogo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+#opacidade3{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    
+}

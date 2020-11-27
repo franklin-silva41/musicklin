@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICKLIN</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <li class="inicio" ><a href="index.html" >Login</a></li>
+            
+        </div>
+        <div class="title">
+
+            <div class="musicklin">
+                <h1 id="titulo">CADASTRO</h1>
+            </div>
+            <div class="conteiner" >
+            <div class="tela_cadas" >
+                <img id="logo-cad" src="img/Musicklin_login.png" alt=""> 
+            </div>
+            <div class="cadastro_inputs" >
+                <form class="inputs" id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                    Nome: <input class="input" type="text" name="nome" required minlength="4">
+                    <br>
+                    Usuário: <input class="input" type="text" name="login" required minlength="4">
+                    <br>
+                    Senha: <input class="input" type="password" name="senha" required minlength="4">
+                    <br>
+                    email: <input class="input" type="text" name="email" required minlength="4">
+                    <br>
+                    <br>
+                    <button id="btn_entrar">Cadastrar</button>
+                </form>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="cadastro.js"></script>

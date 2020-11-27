@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICKLIN</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="header">
+        
+        <div class="menu">
+            <li class="login"><a href="index.html">SAIR</a></li>
+            
+        </div>
+        <div class="title">
+
+            <div class="musicklin">
+                <h1 id="titulo">MUSICKLIN</h1>
+            </div>
+
+
+        </div>
+        <div class="container">
+            <div id="img_music" class="img_musica">
+                <div onclick="display_rock()" id="div_rock"><img class="img_rock" src="img/rock.png" alt=""> </div>
+
+                <div onclick="acustico_display()" id="div_acustico"> <img class="img_acustico" src="img/acustico.png"
+                        alt=""> </div>
+
+                <div onclick="modao_display()" id="div_modao"> <img class="img_modao" src="img/modao.png" alt=""> </div>
+
+                <div onclick="eletronica_display()" id="div_eletronica"> <img class="img_eletronica"
+                        src="img/eletronica.png" alt=""> </div>
+
+                <div onclick="samba_display()" id="div_samba"> <img class="img_samba" src="img/samba.png" alt=""> </div>
+            </div>
+        </div>
+
+        <div class="apresent">
+        </div>
+
+        <div class="PAIalter">
+            <div id="planodefundo" class="alter">
+
+
+                <div class="rock_div" id="rock">
+                    <div id="opacidade">
+                        <b onclick="behemian_display()">
+                            <h2 id="bohemian_disp">QUEEN - Bohemian Rhapsody</h2>
+                        </b> <br>
+
+                        <b onclick="hurt_display()">
+                            <h2 id="hurt_disp"> JOHNNY CASH - Hurt </h2>
+                        </b> <br>
+
+                        <b onclick="made_display()">
+                            <h2 id="made_in_heaven">QUEEN - made in heaven</h2>
+                        </b> <br>
+                    </div>
+                </div>
+                <div class="acustico_div" id="acustico_disp">
+                    <div id="opacidade">
+                        <b onclick="display_onde()">
+                            <h2 id="onde_anda_voce"> VINICIUS DE MORAES/TOQUINHO - Onde anda você </h2>
+                        </b>
+                        <b onclick="display_me_encontra()">
+                            <h2 id="meencontra">CHARLIE BROWN - Me encontra</h2>
+                        </b>
+                        <b onclick="display_anunciacao()">
+                            <h2>ALCEU VALENÇA - Anunciação</h2>
+                        </b>
+                    </div>
+                </div>
+                <div id="modao_disp">
+                    <div id="opacidade">
+                        <b onclick="display_eu_vou()">
+                            <h2 id="eu_vou">Leonardo, Eduardo Costa - Você Vai Ver</h2>
+                        </b>
+                        <b onclick="display_ind()">
+                            <h2 id="indi">Zezé Di Camargo & Luciano - indiferença</h2>
+
+                        </b>
+                        <b onclick="display_horas()">
+                            <h2 id="hora">Bruno & Marrone - 24 Horas de Amor</h2>
+                        </b>
+                        <b onclick="display_por_um_minuto()">
+                            <h2 id="por_um"> Bruno e Marrone - Por Um Minuto </h2>
+                        </b>
+                    </div>
+                </div>
+                <div id="eletronica_disp">
+                    <div id="opacidade1">
+                        <b onclick="display_housemafia()">
+                            <h2 id="swedish_house"> SWEDISH HOUSE MAFIA - Don't You Worry</h2>
+                        </b>
+                        <b onclick="nights()">
+                            <h2 id="disp_the_nights">AVICI - The Nights</h2>
+                        </b>
+                        <b onclick="hear_menow()">
+                            <h2 id="hearmenow">ALOK - HEAR ME NOW</h2>
+                        </b>
+                        <b onclick="piace_of_your()">
+                            <h2 id="piaceofyour">MEDUZA, Goodboys - Piece Of Your Heart</h2>
+                        </b>
+                    </div>
+                </div>
+                <div id="samba">
+                    <div id="opacidade2">
+                        <b onclick="naquela()">
+                            <h2 id="naquelam">JOSÉ DOMINGOS - Naquela Mesa</h2>
+                        </b>
+                        <b onclick="espel()">
+                            <h2 id="disp_espelho">João nogueira - Espelho</h2>
+                        </b>
+                        <b onclick="alem()">
+                            <h2 id="disp_alem">João nogueira - Alem do espelho</h2>
+                        </b>
+            
+                    </div>
+                </div>
+                <div id="disp_diogo" >
+                    <div id="opacidade3">
+                        <b onclick="naquela()">
+                            <h2 id="naquelam1">JOSÉ DOMINGOS - Naquela Mesa</h2>
+                        </b>
+                        <b onclick="espel()">
+                            <h2 id="disp_espelho1">João nogueira - Espelho</h2>
+                        </b>
+                        <b onclick="alem()">
+                            <h2 id="disp_alem1">João nogueira - Alem do espelho</h2>
+                        </b>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="PAIalter2">
+            <div class="alter2">
+
+                <video controls id="bohemian" src="videos/vid_bohemian.mp4" width="430" height="400"></video>
+                <video controls id="onde_anda" src="videos/vid_onde_anda_voce.mp4" width="430" height="400"></video>
+                <video controls id="hurt" src="videos/vid_hurt.mp4" width="430" height="400"></video>
+                <video controls id="me_encontra" src="videos/vid_me_encontra.mp4" width="430" height="400"></video>
+                <video controls id="made_in" src="videos/vid_made_in_heaven.mp4" width="430" height="400"></video>
+                <video controls id="anunciacao" src="videos/vid_anunciação.mp4" width="430" height="400"></video>
+                <video controls id="euvoufica" src="videos/euvouficar.mp4" width="430" height="400"></video>
+                <video controls id="indiferenca" src="videos/indiferenca.mp4" width="430" height="400"></video>
+                <video controls id="horas" src="videos/24horas.mp4" width="430" height="400"></video>
+                <video controls id="por_um_minutos" src="videos/vid_por_um_minuto.mp4" width="430" height="400"></video>
+                <video controls id="swedish_house_mafia" src="videos/vid_swedishhousemafia.mp4" width="430"
+                    height="400"></video>
+                <video controls id="the_nights" src="videos/vid_the_nights.mp4" width="430" height="400"></video>
+                <video controls id="naquela_mesa" src="videos/vid_naquela_mesa.mp4" width="430" height="400"></video>
+                <video controls id="hear_me_now" src="videos/vid_hear_me_now.mp4" width="430" height="400"></video>
+                <video controls id="piace_of_your_heart" src="videos/vid_piace_of_your_heart.mp4" width="430"
+                    height="400"></video>
+                <video controls id="espelho" src="videos/vid_espelho.mp4" width="430" height="400"></video>
+                <video controls id="alem_do_espelho" src="videos/vid_alem_do_espelho.mp4" width="430"
+                    height="400"></video>
+                <video controls id="diogo_nogueira" src="videos/vid_diogo_nogueira.mp4" width="430"
+                    height="400"></video>
+                <input id="easter" onkeyup="easteregg()" type="text">
+            </div>
+        </div>
+        <div id="div_mens"><b onclick="random_music()" style="color: #263813;;">não sabe por onde começar? clique aqui
+                <br> <br></b></div>
+        <div id="mens"></div>
+    </div>
+</body>
+
+
+</html>
+<script src="functions_ifelse.js"></script>
+<script src="funcoes.js"></script>
